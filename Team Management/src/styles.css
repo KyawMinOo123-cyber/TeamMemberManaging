@@ -1,0 +1,24 @@
+* {
+  user-select: none;
+}
+.heightLight {
+  border: 3px solid black;
+}
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+h3,
+h5,
+p {
+  text-align: center;
+}
+.card {
+  background: linear-gradient(to bottom, white, #07f2fa);
+}
+@media screen and (max-width: 600px) {
+  .card-list {
+    grid-template-columns: 1fr;
+  }
+}
